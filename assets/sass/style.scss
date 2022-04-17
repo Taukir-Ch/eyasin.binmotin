@@ -1,0 +1,45 @@
+
+
+
+@import 'abstracts/variables';
+@import 'abstracts/custome-rest';
+@import 'abstracts/mixins';
+@import 'components/ma5-menu.scss';
+// @import 'base/typography';
+// @import 'components/comment';
+// @import 'components/water';
+
+@import 'components/header';
+@import 'components/collection';
+@import 'components/common';
+@import 'components/breadcrumb';
+@import 'components/bannar';
+@import 'components/collectionCatalog';
+
+
+
+// pages 
+// @import 'pages/colletion';
+// @import 'pages/product';
+// @import 'pages/register';
+// @import 'pages/myaccount';
+// @import 'pages/about';
+
+
+@include breakpoint(xsmall){
+   
+}
+
+@include breakpoint(medium){
+   
+}
+@include breakpoint(xlarge){
+    
+}
+@include breakpoint(xxlarge){
+   
+}
+@include breakpoint(xxxlarge){
+    
+}
+

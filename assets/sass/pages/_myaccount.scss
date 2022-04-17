@@ -1,0 +1,348 @@
+.myaccount-wrapper{
+
+margin: 70px 0;
+.account_navigation{
+background: #000;
+color: #fff;
+padding: 10px 20px;
+transition: 0.3s all ease-in-out;
+ul{
+  display: block;
+  transition: 0.3s all ease-in-out;
+  li{
+    display: block;
+    margin: 15px 0;
+    transition: 0.3s all ease-in-out;
+    a{
+      color: #fff;
+     
+      font-weight: $fw-higbold;
+      display: block;
+      margin: 5px 0;
+      @include breakpoint(xsmall){
+   
+      }
+      
+      @include breakpoint(medium){
+        font-size: 12px;
+      }
+      @include breakpoint(xlarge){
+        font-size: 14px;
+      }
+      
+    }
+    a.active{
+      color: $theme-color
+
+    }
+
+  }
+}
+}
+
+.account_submenu{
+  margin-left: 30px;
+  transition: 0.3s all ease-in-out;
+  ul{
+    display: block;
+    li{
+      display: block;
+      a{
+        display: block;
+      }
+    }
+  }
+}
+
+.colleped_body{
+    display: none;
+    opacity: 0;
+}
+
+.singel-account-details{
+
+}
+
+.myacount-content-wrapper{
+  h2{
+    margin-bottom: 10px;
+  }
+  p{
+    font-weight: $fw-samibold;
+    margin: 10px 0;
+  }
+  h2{
+
+  }
+  p{
+    font-size: 15px;
+    line-height: 2;
+  }
+}
+
+.singel-account-details{
+  margin: 10px 0;
+    text-align: center;
+    padding: 60px 0;
+    background: #ddd;
+    .account-icon{
+      i{
+        font-size: 40px;
+        
+      }
+      margin-bottom: 20px;
+    }
+    h5{
+      font-size: 16px;
+    }
+    &:hover{
+      background: #000;
+    }
+    &:hover .account-icon{
+      i{
+        color: #fff;
+      }
+    }
+    &:hover h5{
+      
+        color: #fff;
+  
+    }
+}
+.my_account{
+  text-transform: uppercase;
+  span{
+    i{
+      margin-right:10px ;
+    }
+  }
+}
+
+}
+
+
+
+
+.myinformation{
+  margin-left: 10px;
+  .form-group{
+    margin: 10px 0;
+    label{
+      margin-bottom: 10px;
+    }
+  }
+  .form-group.date-of-barth{
+    select{
+     
+      margin: 0 20px 0 0;
+    }
+  }
+  .gender{
+    .form-check{
+      display: inline-block;
+      margin-right: 18px;
+    }
+  }
+  button{
+    padding: 8px 25px;
+    font-size: 16px;
+    border: none;
+    margin: 10px 10px;
+  }
+  p{
+    font-weight: $fw-samibold;
+    margin: 10px 0 20px 0;
+  }
+  .form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+    padding: 7px;
+}
+table{
+  margin-top: 30px;
+}
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+.my-oder-btn{
+  a.btn{
+    padding: 15px 25px;
+   background: #000;
+    margin: 0 15px;
+    color: #fff;
+    border: 1px solid #000;
+  }
+}
+
+.noreturn{
+  border: 1px  solid #ddd; 
+  padding: 80px 60px;
+  margin-top: 40px;
+  text-align: center;
+  i{
+    font-size: 80px;
+    margin-bottom: 45px;
+  }
+  h2{
+margin-bottom: 20px;
+
+  }
+  p{
+    margin-bottom: 20px;
+  }
+  a.btn{}
+}
+
+
+.mywishlists{
+  margin-top: 60px;
+}
+.gray-bg{
+  background: #f7f7f7;
+}
+
+
+.commonuser-wrapper{
+  padding: 40px 0;
+  .commonuser-icon{
+    background: #fff;
+    padding: 43px 44px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-left: 85px;
+    i{
+      font-size: 35px;
+    }
+  }
+  .commonuser-details{
+    background: #fff;
+    padding: 47px 44px;
+    border-radius: 6px;
+    
+    h4{
+      color: #000;
+      font-weight: $fw-higbold;
+    }
+    a.btn{
+
+    }
+  }
+}
+.white-bg{
+  background: #fff;
+}
+.commonuser-wrapper{
+  margin-top: 20px;
+}
+
+
+// card-scss 
+.commonuser-wrapper{
+	h5{
+		font-weight: 500;
+		font-size: 25px;
+	}
+	.singel_product{
+		margin: 20px 10px;
+	}
+}
+
+.singel-fev {
+	margin: 10px;
+padding: 20px 0;
+border: 1px solid #ddd;
+
+.fev-image{
+	width: 180px;
+}
+.fev-content{
+	p{
+		span{
+
+		}
+	}
+	a.btn{
+		display: inline-block;
+	}
+}
+}
+
+.money_points{
+	display: inline-block;
+  margin-bottom: 40px;
+	span{
+		background: #69b8fc;
+		display: block;
+		padding: 14.8px;
+    @include breakpoint(medium){
+      padding: 10.8px;
+       }
+       @include breakpoint(xlarge){
+        padding: 14.8px;
+       }
+		i{
+			font-size: 20px;
+			color: #fff;
+		}
+	}
+	.money_points_d{
+		background: #62adee;
+		
+    @include breakpoint(xsmall){
+      padding:4.5px 33px;
+    }
+    @include breakpoint(medium){
+      
+        padding: 0.5px 22px;
+  
+    }
+    @include breakpoint(xlarge){
+      padding:5px 33px;
+    }
+		
+		b{
+			font-size: 16px;
+			font-weight: 700;
+			color: #fff;
+			line-height: 1;
+			margin: 0;
+		}
+		p{
+			color: #fff;
+			font-weight: 700;
+			color: #fff;
+		}
+	}
+}
+.my_point_alart{
+	.alert{
+    margin: 20px 0;
+			padding: 5px;
+			border-radius: 2px;
+			i{
+				padding:0 10px ;
+				display: inline-block;
+			}
+	}
+	h5{
+		font-size: 18px;
+		font-weight: 600;	
+		margin-right: 40px;
+    margin-bottom: 40px;
+	}
+
+		.form-control{
+			width:60px;
+		}
+
+	a.btn{
+    padding: 15px 25px;
+    background: #000;
+     margin: 0 15px;
+     color: #fff;
+     border: 1px solid #000;
+	}
+}

@@ -1,0 +1,23 @@
+.breadcrumb{
+    margin: 40px 0 20px 0;
+    ul{
+        li{
+            margin: 5px 7px;
+            a{
+                font-size: 13px;
+                i{
+                    
+                }
+                &:hover{
+                 color: $theme-color;   
+                }
+                span{
+                    margin-left: 5px;
+                }
+            }
+            a.active{
+                color: $theme-color;
+            }
+        }
+    }
+}

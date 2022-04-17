@@ -1,0 +1,141 @@
+.loging-wrapper{
+    margin: 50px  0;
+.wrapper {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 2em 2em;
+    background-color: white;
+    border-radius: 0.4em;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+  }
+  
+  /* Header Styling */
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2.5em;
+  } 
+ 
+
+  .title {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: .4em;
+  }
+  
+  p {
+    font-size: .8725rem;
+    color: #4a4a4a;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #5559e5;
+    font-size: .8725rem;
+  }
+  
+  /* Main form styling */
+  
+  label {
+    display: block;
+    width: 100%;
+    font-size: .8725rem;
+    color: #4a4a4a;
+    margin-bottom: 0.3em;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5em;
+    border-radius: .3em;
+    border: 1px solid #E2E2E2;
+  }
+  
+  input[type='checkbox'] {
+    margin-right: 0.5em; 
+    margin-bottom: 0px;
+    width: 14px;  
+  }
+  
+  .password-settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+  }
+  
+  .remember {
+    display: flex;
+  }
+  
+  .forgot-password {
+    margin-top: -4px;
+  }
+  
+  input[type='submit'] {
+    background-color: $theme-color;
+    color: white;
+    border: none;
+    opacity: 0.9;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 35px;
+  }
+  
+  input[type='submit']:hover {
+    opacity: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  /* Footer styling */
+  
+  .footer {
+    margin-bottom: 1.2em;
+  }
+  
+  .divider {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: 100%;
+    margin-block: 1.2em;
+  }
+  
+  hr {
+    border: 1px solid #E2E2E2;
+    flex-grow: 1;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1em; 
+  }
+  
+  button {
+    flex-grow: 1;
+    padding-block: 2px;
+    background-color: white;
+    border: 1px solid #E2E2E2;
+    border-radius: .3em;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #f6f6f6;
+  }
+
+  .checkbox{
+      span{
+          color: $theme-color;
+      }
+    input{
+            padding: 6px 5px;
+      }
+  }
+}
+
