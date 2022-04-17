@@ -397,6 +397,9 @@ nav#navigation {
   @include breakpoint(xsmall){
     top: 0px !important;
   }
+  @include breakpoint(xsmall){
+    top: 57px !important;
+  }
 }
 
 .mobile-menuicon{
